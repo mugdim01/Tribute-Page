@@ -1,0 +1,90 @@
+.container {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.0em;
+}
+
+.img-container {
+    text-align: center;
+    background-color: #fff;
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.image {
+    max-width: 80%;
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(221, 220, 220);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(181, 178, 178);
+}
+
+#timeline-title {
+    text-align: center;
+    margin-top: 250px;
+}
+
+ul li {
+    text-align: left;
+    position: relative;
+    left: 7%;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.wikipedia {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+#wikipedia-link:hover {
+    color: black;
+}
+
+#wikipedia-link:active {
+    color: red;
+}
+
